@@ -24,7 +24,7 @@ namespace MediaApi.Controllers
         {
             var response = new StatusResponse
             {
-                Message = "Everything is groovy!",
+                Message = "Everything is groovy! here in docker land",
                 CreatedAt = Clock.GetCurrent()
             };
             return Ok(response); // this will return a 200.
